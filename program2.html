@@ -1,0 +1,37 @@
+<html>
+	<head>
+               <title> program to find the largest of 3numbers </title>
+		<script>
+			function largest()
+			{
+				var num1, num2, num3;
+				num1 = Number(document.getElementById("a").value);
+				num2 = Number(document.getElementById("b").value);
+				num3 = Number(document.getElementById("c").value);
+
+				if(num1>num2 && num1>num3)
+				{
+					document.write(num1+"  is greatest number.  ");
+				}
+				else if(num2>num1 && num2>num3)
+				{
+					document.write(num2+"  is greatest number. ");
+				}
+				else if(num3>num1 && num3>num1)
+				{
+					document.write(num3+"   is greatest  number.");
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<h2><center>Calculate the largest among three numbers</center></h2>
+		<br>
+		<center>Enter number 1: <input type="text" id="a"></center></input><br><br>
+		<center>Enter number 2: <input type="text" id="b"></center></input><br><br>
+		<center>Enter number 3: <input type="text" id="c"></center></input><br><br>
+		
+		<center><left><button onclick="largest( )">OK</button>
+
+	</body>
+</html>
