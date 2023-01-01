@@ -1,0 +1,22 @@
+<html>
+<head>
+<script>
+let sum = 0;
+let count = 0;
+
+while (true)
+ {
+  let num = prompt("Enter a positive number 0 to end :");
+  num = parseInt(num);
+  if (num <= 0) break;
+  sum += num;
+  count++;
+}
+
+let average = sum / count;
+document.write(`The sum is ${sum}<br>`);
+document.write(`The average is ${average}`);
+
+</script>
+</head>
+</html>
